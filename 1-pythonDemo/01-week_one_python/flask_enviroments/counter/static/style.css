@@ -1,0 +1,38 @@
+body{
+    background-color: bisque;
+    text-align: center;
+    font-size: 50px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+#visit:hover, #reset:hover, #visit, #reset{
+    padding: 20px;
+    width: 250px;
+    font-size: 28px;
+    border-radius: 28px;
+    background-color: yellow;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#visit{
+    background-color: blue;
+    color: white;
+}
+
+#reset{
+    background-color: red;
+    color: white;
+}
+

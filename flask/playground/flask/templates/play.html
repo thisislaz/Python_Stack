@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            padding:100px;
+        }
+    #header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+        margin-bottom: 15px;
+    }
+    #box{
+    
+        display: inline-block;
+        background-color: {{color}};
+        height: 180px !important;
+        width: 180px !important;
+        border: 3px solid black;
+        margin: 5px;
+    }
+    </style>
+ 
+</head>
+<body>
+    <div id="header">
+        <h1>Welcome!</h1>
+    </div>
+    <div id="flex-cont">
+        {% for i in range (0,num2) %}
+        <div id="box"></div>
+        {%endfor%}
+    </div>
+
+
+
+</body>
+</html>

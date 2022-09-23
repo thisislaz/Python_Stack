@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists in virtual enviroments</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="boxes">
+        <h1>Random Numebrs Lists</h1>
+        {% for number in random_numbers %}
+            <p>{{number}}</p>
+        {% endfor %}
+        <h1>Student's Dictionary</h1>
+        {% for x in students %}
+            <p>{{ x['name']  }} - {{  x['age']  }} </p>
+        {%  endfor  %}
+    </div>
+    <div id="some_text">
+        <a href="/"><h2>Takes us back to our previous page</h2></a>
+    </div>
+</body>
+</html>

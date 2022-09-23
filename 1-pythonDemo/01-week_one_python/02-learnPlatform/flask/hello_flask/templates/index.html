@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+</head>
+<body>
+    <h1>Hello, world this is the boy lazipoo</h1>
+    <h3>trying to do some jinja2 in this code brh</h3>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: green;
+        }
+        h1{
+            background-color: black;
+            color: white;
+        }
+        h2{
+            background-color: bisque;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        h4, h5{
+            font-size: 30px;
+        }
+        P{
+            font-size: 26px;
+        }
+    </style>
+    <h2>
+                {{phrase * times}}
+                {{word * num}}
+                
+                
+                
+                
+            </h2>
+
+
+
+        <h1>
+            {% for i in range(0,num) %}
+            <a href=""><p>Hello, can you {{word}} off!</p></a>
+            {% endfor%}
+        </h1>
+
+        <div id="example">
+            <h4>This is the exmaples in class</h4>
+            <h5>This is the flask template</h5>
+            <p>Phrase:{{phrase}}</p>
+            <p>Word: {{word}} </p>
+            <p>Times:{{times}} </p>
+            <p>Num:{{num}} </p>
+
+            {% for x in range(0,num): %}
+                <p>{{phrase + ' ' +word}}</p>
+                {% endfor %}
+
+            {%if word == "suck"%}
+            <p>This class is the ultimate {{word}}. I am printing the "word" now...{{word}} </p>    
+            {%endif%}
+        </div>
+    
+        </body>
+</html>

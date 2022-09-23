@@ -1,0 +1,23 @@
+*{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+body{
+    background-color:darkgreen;
+}
+
+h1, h3{
+    text-align: center;
+    color: white;
+}
+
+#form-2{
+    background-color:royalblue;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.col-5{
+    margin-right: 50px;
+}

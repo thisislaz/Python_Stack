@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    padding: 50px 80px;
+    font-size: 23px;
+    background-color: olivedrab;
+}
+
+#flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+label{
+    color: white;
+    text-decoration: underline;
+}
+
+input, select{
+    padding: 5px;
+}
+
+h1{
+    text-decoration: underline;
+    margin-bottom: 8px;
+}
+
+#home-btn{
+    background-color: black;
+    color: white;
+    padding: 6px 22px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+#dojo-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#dojo-box>a{
+    color: white;
+}
+
+#left, #right{
+    background-color:steelblue;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+#left{
+    height: 230px !important;
+}
+
+#add-ninja{
+    background-color: black;
+    border-radius: 10px;
+    padding: 6px;
+    margin-top: 30px;
+    color: white;
+}
+
+#add-ninja a{
+    color: white;
+}
+
+#ninja-form{
+    display: inline-block;
+}
+
+.anchor>a, .anchor{
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
